@@ -126,6 +126,7 @@ body {
 }
 
 .kanan {
+    height: 450px;
     border-left: 3px dotted red;
     color: #cfcfcf;
     padding: 10px;
