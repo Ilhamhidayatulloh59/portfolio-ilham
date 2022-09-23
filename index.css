@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    background-image: url(img/dl.beatsnoop.com-high-128106bd7492a1aa46.jpg);
+    background-size: cover;
+    color: #333;
+}   
+
+.container {
+    height: 700px;
+    margin: 50px 80px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid black;
+    box-sizing: border-box;
+    position: relative;
+}
+.twitter {
+    width: 128px;
+    height: 128px;
+    background-image: url(img/Twitter\ Ribbon-128x128.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: -15px;
+    right: -17px;
+}
+.header {
+    padding: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #cfcfcf;
+}
+.header .nama {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.main {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    height: 450px;
+}
+.kiri {
+    height: 450px;
+    color: #cfcfcf;
+    padding: 10px;
+    border-right: 3px dotted red;
+    overflow: hidden;
+}
+
+.tengah {
+    /* opacity: 0.1; */
+    background-image: url(img/01-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+}
+
+.kanan {
+    border-left: 3px dotted red;
+    color: #cfcfcf;
+    padding: 10px;
+}
+.kanan .hello { 
+    font-size: 28px;
+    font-weight: bold;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.kanan p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+fieldset {
+	border: 1px solid #DDDDDD;
+	display: inline-block;
+	font-size: 16px;
+	padding: 1em 2em;
+    margin-bottom: 40px;
+    height: 400px;
+    width: 300px;
+    text-align: justify;
+}
+
+legend {
+	background: #BFD48C;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+	padding: 0.5em 1em;
+}
+
+.kanan a {
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+.kanan a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+fieldset h2 {
+    font-weight: bold;
+}
+
+.sosmed {
+    margin: 70px auto;
+    width: 880px;
+    height: 100px;
+    /* background-color: yellow; */
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+   
+}
+.sosmed1 {
+    font-size: 14px;
+    color: white;
+}
+.sosmed1 img{
+    display: inline block;
+}
+
+.icon img{
+    float: left;
+}
+
+.icon p{
+    float: left;
+    margin-left: 10px;
+}
